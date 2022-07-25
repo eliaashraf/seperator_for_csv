@@ -3,7 +3,7 @@ import pandas as pd
 #import csv 
 #import datetime as dt
 
-#Read from the csv file and parse out the timestamp
+#Read from the csv file and parse out the timestamp into "Data" 
 Data = pd.read_csv('C:\\Users\\Elia Ashraf\\OneDrive\\Desktop\\conversations\\chatbot_convo_FR.csv', parse_dates=['Time_stamp'], infer_datetime_format=True)
 
 #Parse out the date from the ISO timestamp and change the format from YYYY-MM-DD to DD-MM-YYYY
