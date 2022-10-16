@@ -14,7 +14,7 @@ Data['Time'] = pd.to_datetime(Data['Time_stamp']).dt.strftime('%H:%M:%S')
 #print (Data["Time"])
 
 #Write to a new file (save changes to a new file)
-Data.to_csv('C:\\Users\\Elia Ashraf\\OneDrive\\Desktop\\conversations\\Chatbot_UserStats_FR.csv', index=FALSE)
+Data.to_csv('C:\\Users\\file_location\\file_name.csv', index=FALSE)
 
 
 
